@@ -1,4 +1,5 @@
-class Persona {
+// La clase se exporta en una especie de paquete default
+export default class Persona {
     constructor(nombre, apellido, edad, altura) {
         this.nombre = nombre;
         this.apellido = apellido;
