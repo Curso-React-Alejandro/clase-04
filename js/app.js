@@ -11,4 +11,5 @@ console.log(myPerson.saludar());
 
 let myPerro = new Perro('Firulais', 'Pastor Aleman', 3);
 
-myPerro.ladrar();
+console.log(myPerro.ladrar());
+console.log(myPerro.speak());
